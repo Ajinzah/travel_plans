@@ -1,0 +1,102 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f9fc;
+  color: #333;
+}
+
+header {
+  background-color: #004d80;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+#darkModeToggle {
+}
+
+.sidebar {
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  background-color: #003d66;
+  padding-top: 20px;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.sidebar a:hover {
+  background-color: #004d80;
+}
+
+.container {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  color: white;
+  background-color: #0073e6;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #005bb5;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #e5dfdf;
+}
+
+body.dark-mode header {
+  background-color: #1f1f1f;
+  color: #121212;
+}
+
+body.dark-mode nav {
+  background-color: #1f1f1f;
+  color: #121212;
+}
+
+body.dark-mode table {
+  border-color: #444;
+}
+
+body.dark-mode table th,
+body.dark-mode table td {
+  border-color: #444;
+}
+
+body.dark-mode header button {
+  background-color: #444;
+  color: #e4e4e4;
+}
+
+body.dark-mode header button:hover {
+  background-color: #666;
+}
